@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Formulario Registro</title>
+</head>
+<body>
+  <form class="form" name="form" method="post" id="form" action="">
+    <h4>Formulario Registro</h4>
+    <h5>Nombre</h5>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Introduzca su Nombre" required>
+    <h5>Apellidos</h5>
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Introduzca sus Apellidos" required>
+    <h5>Fecha de nacimiento</h5>
+    <input class="controls" type="date" name="fechaNac" id="fechaNac" placeholder="Introduzca su fecha de nacimiento" min="1930-01-01"  required>
+    <h5>Correo electrónico</h5>
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Introduzca su Correo" required>
+    <h5>Teléfono</h5>
+    <input class="controls" type="telefono" name="telefono" id="telefono" placeholder="Introduzca su teléfono" required>
+    <h5>Dni</h5>
+    <input class="controls" type="text" name="dni" id="dni" placeholder="Introduzca su DNI" required>
+    <h5>Iban</h5>
+    <input class="controls" type="text" name="iban" id="iban" placeholder="Introduzca su IBAN" required>
+    <h5>Swift</h5>
+    <input class="controls" type="text" name="swift" id="swift" placeholder="Introduzca su SWIFT" required>
+    <input class="checkbox" type="checkbox" name="checkbox" required>    Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Enviar" onclick="mi_funcion()">
+    <p class="warnings" id="warnings"></p>
+  </form>
+  <script src="js/formulario.js"></script>
+</body>
+</html>
